@@ -1,5 +1,5 @@
 print("Welcome to the tip calculator!")
-bill_total = input("How much was the total bill? (Enter amount without currency symbol) ")
+bill_total = float(input("How much was the total bill? (Enter amount without currency symbol) ")
 bill_total_as_float = float(bill_total)
 print(bill_total_as_float)
 number_in_party = input("How many persons will split the bill? ")
